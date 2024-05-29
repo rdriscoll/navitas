@@ -51,6 +51,7 @@ themes/
 
 # files to be includes, i.e. excluded from base .gitignore
 !*_compiled.zip
+!dependencies/**
 
 #ignore thumbnails created by windows
 Thumbs.db

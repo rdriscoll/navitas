@@ -32,6 +32,10 @@ Solution requires VS2022 Community Edition.
 
 The code in the "4 series" folder loads without errors, has been tested with a user interface and lighting gateway but has not been tested in production.
 
+### Dependencies
+
+The /dependencies/ folder contains any dlls that may be missing from the build and required to build a project, add references to these libraries if necessary.
+
 ## Supported features
 
 * BSS Audio DSP

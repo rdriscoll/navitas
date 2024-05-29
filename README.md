@@ -11,7 +11,7 @@ Platform: Crestron
 The same code runs in each processor.
 On boot the program looks for a file in "//NVRAM//Navitas//" that ends with " system config.json", so load a config file into that directory, e.g., "//NVRAM//Navitas//Navitas 1.01 (1.06) System config.json".
 
-Whean adding a new processor, find a config fiel that is similar to the one you need and modify that, there is no documentation on the config file so you'll have to figure it out.
+Whean adding a new processor, find a config file that is similar to the one you need and modify that, there is no documentation on the config file so you'll have to figure it out by looking at existing configs.
 
 A processor can be of any type including "RMC3", "RMC4", "CP3", "CP4", "DMPS3-200", "DMPS3-300". A processor will support room joins, there are example config files in the repo.
 
@@ -19,7 +19,18 @@ Each floor has a processor dedicated as a lighting gateway, the processor to be 
 
 ## Developing code
 
-The code in the "3 Series" folder only works on 3 series processors and is what is installed in all rooms as of 2023, the code in the "4 series" folder appears to be working but has not been tested in production.
+### 3 series
+
+Solution requires VS2008 + SP1 Professional with Crestron VS plugin.
+Good luck getting a copy of VS2008 Professional!
+
+The code in the "3 Series" folder only works on 3 series processors and is what is installed in all rooms as of 2023
+
+### 4 series
+
+Solution requires VS2022 Community Edition.
+
+The code in the "4 series" folder loads without errors, has been tested with a user interface and lighting gateway but has not been tested in production.
 
 ## Supported features
 

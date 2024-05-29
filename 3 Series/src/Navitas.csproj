@@ -66,18 +66,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Display, Version=1.0.0.40397, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\src\simplSharpPro\Projects\Dynamic Drivers\Dynamic Drivers SDK v1\Source Code\Device Types\Display\bin\Display.dll</HintPath>
-    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="Newtonsoft.Json.Compact, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\ProgramData\Crestron\SDK\Newtonsoft.Json.Compact.dll</HintPath>
-    </Reference>
-    <Reference Include="ProTransports, Version=1.0.0.40317, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\src\simplSharpPro\Projects\Dynamic Drivers\Dynamic Drivers SDK v1\Source Code\Common\ProTransports\bin\ProTransports.dll</HintPath>
     </Reference>
     <Reference Include="SimplSharpCryptographyInterface, Version=1.0.6036.22525, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

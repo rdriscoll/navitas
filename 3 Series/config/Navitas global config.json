@@ -1,0 +1,62 @@
+{
+  "Version": "0.1",
+  "LoginREquired": true,
+  "PasswordUser": "1234",
+  "PasswordAdmin": "1988",
+  "types": [
+    {
+      "Id": "1",
+      "Controller": "DMPS3-300-C",
+      "Vid matrix": "DMPS3-300-C", 
+      "Aud DSP": "DMPS3-300-C",  
+      "VidInputs": [
+        { "room": 1, "devType": 1, "devName": "Document camera" },
+        { "room": 1, "devType": 2, "devName": "Local PC" },
+        { "room": 1, "devType": 3, "devName": "Laptop" },
+        { "room": 1, "devType": 4, "devName": "Camera" }
+      ],
+      "VidOutputs": [
+        { "room": 1, "devType": 1, "devName": "Projector 1" },
+        { "room": 1, "devType": 2, "devName": "Projector 2" },
+        { "room": 1, "devType": 4, "devName": "Record 1" },
+        { "room": 1, "devType": 5, "devName": "Record 2" },
+      ]    
+    },
+    {
+      "Id": "2", 
+      "Controller": "CP3",
+      "Vid matrix": "DM-MD8x8", 
+      "Aud DSP": "BSS",  
+      "VidInputs": [
+        { "room": 1, "devType": 1, "devName": "Document camera" },
+        { "room": 1, "devType": 2, "devName": "Local PC" },
+        { "room": 1, "devType": 3, "devName": "Laptop" },
+        { "room": 1, "devType": 4, "devName": "Camera" },
+        { "room": 2, "devType": 1, "devName": "Document camera" },
+        { "room": 2, "devType": 2, "devName": "Local PC" },
+        { "room": 2, "devType": 3, "devName": "Laptop" }
+      ],
+      "VidOutputs": [
+        { "room": 1, "devType": 1, "devName": "Projector 1" },
+        { "room": 1, "devType": 2, "devName": "Projector 2" },
+        { "room": 1, "devType": 4, "devName": "Record 1" },
+        { "room": 1, "devType": 5, "devName": "Record 2" },
+        { "room": 2, "devType": 1, "devName": "Projector" }
+      ]    
+    },
+    {
+      "Id": "3", 
+      "Controller": "RMC3",
+      "Vid matrix": "", 
+      "Aud DSP": "",  
+      "VidInputs": [
+        { "room": 1, "devType": 1, "devName": "Document camera" },
+        { "room": 1, "devType": 2, "devName": "Local PC" },
+        { "room": 1, "devType": 3, "devName": "Laptop" }
+      ],
+      "VidOutputs": [
+        { "room": 1, "devType": 1, "devName": "LCD" }
+      ]    
+    }
+  ]
+}

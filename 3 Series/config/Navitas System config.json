@@ -1,0 +1,66 @@
+{
+  "Project": "Navitas",
+  "vidSwitcherIpAddress":"10.4.136.103",
+  "Type": "Dev",
+  "Name": "Navitas Dev system",
+  "Controller": "CP3",
+  "Version": "0.1",
+  "IPID": 0,
+  "ShowRecordInMenu": false,
+  "LoginREquired": false,
+  "PasswordUser": "1234",
+  "PasswordAdmin": "1988",
+  "locations": [
+    {
+      "Id": 1,
+      "Name": "1.03",
+      "Owner": 1,
+      "Owned": [],
+      "Volume": 0,
+      "mute": false,
+      "CurrentVidSourceName": "",
+      "CurrentAudSourceName": "",
+      "Power": 0,
+    },
+    {
+      "Id": 2,  
+      "Name": "1.03c",
+      "Owner": 2,
+      "Owned": [],
+      "Volume": 0,
+      "mute": false,
+      "CurrentVidSourceName": "",
+      "CurrentAudSourceName": "",
+      "Power": 0,
+    }
+  ],
+  "audioDsp": 
+  { 
+    "address":"10.4.136.34",
+    "port": 1023,
+    "DeviceID": 0x03C7,
+    "GainBlockID": 0x000100,
+    "MatrixBlockID": 0x000101,
+  },
+  "Mics": [
+    { "room": 1, "level": 0, "mute": false, "name": "Handheld" },
+    { "room": 1, "level": 0, "mute": false, "name": "Lapel" },
+    { "room": 2, "level": 0, "mute": false, "name": "Handheld" }
+  ],
+  "VidInputs": [
+    { "room": 1, "devType": 1, "devName": "Document camera", "brand":"Lumens", "address": "" },
+    { "room": 1, "devType": 2, "devName": "Local PC", "brand":"", "address": "" },
+    { "room": 1, "devType": 3, "devName": "Laptop",   "brand":"", "address": "" },
+    { "room": 1, "devType": 4, "devName": "Camera",   "brand":"", "address": "" },
+    { "room": 2, "devType": 1, "devName": "Document camera", "brand":"", "address": "" },
+    { "room": 2, "devType": 2, "devName": "Local PC", "brand":"", "address": "" },
+    { "room": 2, "devType": 3, "devName": "Laptop",   "brand":"", "address": "" }
+  ],
+  "VidOutputs": [
+    { "room": 1, "devType": 1, "devName": "Projector 1", "brand":"Panasonic", "address": "192.168.0.110" },
+    { "room": 1, "devType": 2, "devName": "Projector 2", "brand":"Epson",     "address": "" },
+    { "room": 1, "devType": 4, "devName": "Record 1",    "brand":"Echo",      "address": "192.168.0.111" },
+    { "room": 1, "devType": 5, "devName": "Record 2",    "brand":"Echo",      "address": "192.168.0.111" },
+    { "room": 2, "devType": 1, "devName": "Projector",   "brand":"Panasonic", "address": "192.168.0.112" }
+  ]
+}

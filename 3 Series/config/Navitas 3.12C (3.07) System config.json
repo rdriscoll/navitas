@@ -1,0 +1,48 @@
+{
+  "project": "Navitas",
+  "vidSwitcherIpAddress":"10.4.138.13",
+  "type": "Dev",
+  "name": "Navitas Room 3.07",
+  "controller": "RMC3",
+  "version": "1.0",
+  "showRecordInMenu": false,
+  "loginRequired": false,
+  "passwordUser": "1234",
+  "passwordAdmin": "1988",
+  "locations": [
+    {
+      "id": 1,
+      "name": "3.07",
+      "owner": 1,
+      "owned": [],
+      "volume": 0,
+      "mute": false,
+      "currentVidSourceName": "",
+      "currentAudSourceName": "",
+      "power": 0,
+      "lightArea": 27
+    }
+  ],
+  "audioDsp":
+  { 
+    "address":"",
+    "port": 1023,
+    "deviceID": 0x0001,
+    "gainBlockID": 0x00012D,
+    "matrixBlockID": 0x00012E,
+  },
+  "lights":
+  {
+    "address":"10.4.137.151",
+    "presets": [  "Full", "", "Present", "Off", ""],
+  },
+  "mics": [
+  ],
+  "vidInputs": [ 
+    { "room": 1, "devType": 3, "devName": "Laptop",   "brand":"", "address": "" },
+	{ "room": 1, "devType": 2, "devName": "Local PC", "brand":"", "address": "" }
+  ],
+  "vidOutputs": [
+    { "room": 1, "devType": 1, "devName": "IWB",       "brand": "Epson",    "address": "10.4.138.14" }
+  ]
+}

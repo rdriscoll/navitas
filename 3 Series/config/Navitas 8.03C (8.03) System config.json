@@ -1,0 +1,137 @@
+{
+  "locations": [
+    {
+      "Id": 1,
+      "Name": "8.03",
+      "Owner": 1,
+      "Owned": [],
+      "Volume": 94,
+      "LightArea": 23,
+      "mute": false,
+      "WpAudioType": null,
+      "CurrentVidSourceName": null,
+      "CurrentAudSourceName": null,
+      "Power": 0
+    }
+  ],
+  "project": "Navitas",
+  "type": "Dev",
+  "name": "Navitas Room 8.03",
+  "controller": "DMPS3-300-C",
+  "version": "0.2",
+  "IPID": 0,
+  "vidSwitcherIpAddress": null,
+  "mics": [
+    {
+      "name": "Lapel",
+      "level": 58,
+      "mute": false,
+      "room": 1
+    },
+    {
+      "name": "Handheld",
+      "level": 57,
+      "mute": false,
+      "room": 1
+    }
+  ],
+  "lights": {
+    "address": "10.4.139.11",
+    "presets": [
+      "Full",
+      null,
+      "Present",
+      "Off",
+      null
+    ]
+  },
+  "vidInputs": [
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Laptop",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 2,
+      "devName": "Local PC",
+      "brand": null,
+      "address": null
+    },
+    null,
+    null,
+    null,
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 4,
+      "devName": "Camera",
+      "brand": null,
+      "address": "10.4.139.49"
+    }
+  ],
+  "vidOutputs": [
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 4  ,
+      "devName": "Record 1",
+      "brand": "Echo",
+      "address": "10.4.139.44"
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 6,
+      "currentSourceAud": 0,
+      "devType": 5,
+      "devName": "Record 2",
+      "brand": "Echo",
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 1,
+      "devName": "IWB",
+      "brand": "Epson",
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 1,
+      "currentSourceAud": 0,
+      "devType": 8,
+      "devName": "VC",
+      "brand": "Vaddio",
+      "address": "10.4.139.48"
+    }
+  ],
+  "audioDsp": {
+    "address": "10.4.139.43",
+    "deviceID": 803,
+    "gainBlockID": 301,
+    "matrixBlockID": 302,
+    "port": 1023
+  },
+  "showRecordInMenu": false,
+  "loginRequired": false,
+  "numMics": 0,
+  "passwordUser": "1234",
+  "passwordAdmin": "1988"
+}

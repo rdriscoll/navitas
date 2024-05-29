@@ -1,0 +1,51 @@
+{
+  "project": "Navitas",
+  "vidSwitcherIpAddress":"10.4.136.14",
+  "type": "Single Room Epson",
+  "name": "Navitas Room 1.01",
+  "controller": "RMC3",
+  "version": "0.3",
+  "showRecordInMenu": false,
+  "loginRequired": false,
+  "passwordUser": "1234",
+  "passwordAdmin": "1988",
+  "locations": [
+    {
+      "id": 1,
+      "name": "1.06",
+      "owner": 1,
+      "owned": [],
+      "volume": 0,
+      "mute": false,
+      "currentVidSourceName": "",
+      "currentAudSourceName": "",
+      "power": 0,
+      "lightArea": 26
+    }
+  ],
+  "audioDsp":
+  { 
+    "address":"10.4.136.13",
+    "port": 1023,
+    "deviceID": 0x0001,
+    "gainBlockID": 0x00012D,
+    "matrixBlockID": 0x00012E,
+  },
+  "lights":
+  {
+    "address":"10.4.136.11",
+    "presets": [  "Full", "", "Present", "Off", ""],
+  },
+  "mics": [
+    { "room": 1, "level": 0, "mute": false, "name": "Handheld" },
+    { "room": 1, "level": 0, "mute": false, "name": "Lapel" }
+  ],
+  "vidInputs": [
+    { "room": 1, "devType": 2, "devName": "Local PC", "brand":"", "address": "" },
+    { "room": 1, "devType": 1, "devName": "Document camera", "brand":"Lumens", "address": "" },
+    { "room": 1, "devType": 3, "devName": "Laptop",   "brand":"", "address": "" }
+  ],
+  "vidOutputs": [
+    { "room": 1, "devType": 1, "devName": "Projector", "brand":"Panasonic", "address": "10.4.136.15" }
+  ]
+}

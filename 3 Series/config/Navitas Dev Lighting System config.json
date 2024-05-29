@@ -1,0 +1,22 @@
+{
+  "project": "Navitas",
+  "vidSwitcherIpAddress":"",
+  "type": "Lights",
+  "name": "Lighting controller",
+  "controller": "RMC3",
+  "version": "0.3",
+  "showRecordInMenu": false,
+  "loginRequired": false,
+  "passwordUser": "1234",
+  "passwordAdmin": "1988",
+  "locations": [],
+  "audioDsp": {},
+  "lights":
+  {
+    "address":"192.168.104.160",
+    "presets": [  "Full", "", "Present", "Off", ""]
+  },
+  "mics": [],
+  "vidInputs": [],
+  "vidOutputs": []
+}

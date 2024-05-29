@@ -1,0 +1,113 @@
+{
+  "locations": [
+    {
+      "Id": 1,
+      "Name": "4.09",
+      "Owner": 1,
+      "Owned": [],
+      "Volume": 70,
+      "LightArea": 29,
+      "mute": false,
+      "WpAudioType": null,
+      "CurrentVidSourceName": null,
+      "CurrentAudSourceName": null,
+      "Power": 0
+    }
+  ],
+  "project": "Navitas",
+  "type": "DMPS3-200-C",
+  "name": "Navitas 4.04C",
+  "controller": "DMPS3-200-C",
+  "version": "0.9",
+  "IPID": 0,
+  "vidSwitcherIpAddress": null,
+  "mics": [],
+  "lights": {
+    "address": "10.4.138.111",
+    "presets": [
+      "Full",
+      null,
+      "Present",
+      "Off",
+      ""
+    ]
+  },
+  "vidInputs": [
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Laptop",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 2,
+      "devName": "Local PC",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 7,
+      "devName": "Wireless",
+      "brand": null,
+      "address": null
+    },
+    null,
+    null,
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Laptop IWB",
+      "brand": null,
+      "address": null
+    }
+  ],
+  "vidOutputs": [
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 1,
+      "devName": "IWB",
+      "brand": "Epson",
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 1,
+      "devName": "Projector",
+      "brand": "Hitachi",
+      "address": "10.4.138.150"
+    }
+  ],
+  "audioDsp": {
+    "address": null,
+    "deviceID": 409,
+    "gainBlockID": 301,
+    "matrixBlockID": 302,
+    "port": 1023
+  },
+  "showRecordInMenu": false,
+  "loginRequired": false,
+  "numMics": 0,
+  "passwordUser": "1234",
+  "passwordAdmin": "1988"
+}

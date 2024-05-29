@@ -1,0 +1,357 @@
+{
+  "locations": [
+    {
+      "Id": 1,
+      "Name": "8.01",
+      "Owner": 1,
+      "Owned": [],
+      "Volume": 0,
+      "LightArea": 21,
+      "mute": false,
+      "WpAudioType": null,
+      "CurrentVidSourceName": null,
+      "CurrentAudSourceName": null,
+      "Power": 0
+    },
+    {
+      "Id": 2,
+      "Name": "8.02",
+      "Owner": 2,
+      "Owned": [],
+      "Volume": 0,
+      "LightArea": 22,
+      "mute": false,
+      "WpAudioType": null,
+      "CurrentVidSourceName": null,
+      "CurrentAudSourceName": null,
+      "Power": 0
+    }
+  ],
+  "project": "Navitas",
+  "type": "Collaborative",
+  "name": "Navitas 8.01 Collaborative rooms",
+  "controller": "CP3",
+  "version": "0.3",
+  "IPID": 0,
+  "vidSwitcherIpAddress": null,
+  "mics": [
+    {
+      "name": "Handheld",
+      "level": 0,
+      "mute": false,
+      "room": 2
+    },
+    {
+      "name": "Lapel",
+      "level": 0,
+      "mute": false,
+      "room": 2
+    }
+  ],
+  "lights": {
+    "address": "10.4.139.11",
+    "presets": [
+      "Full",
+      null,
+      "Present",
+      "Off",
+      ""
+    ]
+  },
+  "vidInputs": [
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 1,
+      "devName": "Document camera",
+      "brand": "Lumens",
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Student 1",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Student 2",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Student 3",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Student 4",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Student 1",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Student 2",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Student 3",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Student 4",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 4,
+      "devName": "Camera",
+      "brand": null,
+      "address": "10.4.139.15"
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Laptop",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 2,
+      "devName": "Local PC",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 2,
+      "devName": "Local PC",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Laptop",
+      "brand": null,
+      "address": null
+    }
+  ],
+  "vidOutputs": [
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 1,
+      "devName": "IWB",
+      "brand": "Epson",
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 1,
+      "devName": "IWB",
+      "brand": "Epson",
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 7,
+      "devName": "Student 1",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 7,
+      "devName": "Student 2",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 7,
+      "devName": "Student 3",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 7,
+      "devName": "Student 4",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 7,
+      "devName": "Student 1",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 7,
+      "devName": "Student 2",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 7,
+      "devName": "Student 3",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 7,
+      "devName": "Student 4",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 4,
+      "devName": "Record 1",
+      "brand": "Echo",
+      "address": "10.4.139.16"
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 10,
+      "currentSourceAud": 0,
+      "devType": 5,
+      "devName": "Record 2",
+      "brand": "Echo",
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 6,
+      "devName": "Audio",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 6,
+      "devName": "Audio",
+      "brand": null,
+      "address": null
+    }
+  ],
+  "audioDsp": {
+    "address": "10.4.139.14",
+    "deviceID": 801,
+    "gainBlockID": 301,
+    "matrixBlockID": 302,
+    "port": 1023
+  },
+  "showRecordInMenu": false,
+  "loginRequired": false,
+  "numMics": 0,
+  "passwordUser": "1234",
+  "passwordAdmin": "1988"
+}

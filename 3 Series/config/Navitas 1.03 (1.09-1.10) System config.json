@@ -1,0 +1,76 @@
+{
+  "project": "Navitas",
+  "vidSwitcherIpAddress":null,
+  "type": "Dev",
+  "name": "Navitas 1.03",
+  "controller": "CP3",
+  "version": "0.2",
+  "showRecordInMenu": false,
+  "loginRequired": false,
+  "passwordUser": "1234",
+  "passwordAdmin": "1988",
+  "locations": [
+    {
+      "id": 1,
+      "name": "1.09",
+      "owner": 1,
+      "owned": [],
+      "volume": 0,
+      "mute": false,
+      "currentVidSourceName": null,
+      "currentAudSourceName": null,
+      "power": 0,
+      "lightArea": 29
+    },
+    {
+      "id": 2,
+      "name": "1.10",
+      "owner": 2,
+      "owned": [],
+      "volume": 0,
+      "mute": false,
+      "currentVidSourceName": null,
+      "currentAudSourceName": null,
+      "power": 0,
+      "lightArea": 30
+    }
+  ],
+  "audioDsp":
+  { 
+    "address":"10.4.136.34",
+    "port": 1023,
+    "deviceID": 0x0001,
+    "gainBlockID": 0x00012D,
+    "matrixBlockID": 0x00012E,
+  },
+  "lights":
+  {
+    "address":"10.4.136.11",
+    "presets": [  "Full", null, "Present", "Off", ""],
+  },
+  "mics": [
+    { "room": 1, "level": 0, "mute": false, "name": "Handheld" },
+    { "room": 1, "level": 0, "mute": false, "name": "Lapel" },
+    { "room": 2, "level": 0, "mute": false, "name": "Handheld" },
+    { "room": 2, "level": 0, "mute": false, "name": "Lapel" }
+  ],
+  "vidInputs": [
+    { "room": 1, "devType": 1, "devName": "Document camera", "brand": "Lumens", "address": null },
+    { "room": 1, "devType": 4, "devName": "Camera",   "brand": null, "address": "10.4.136.35" },
+    { "room": 1, "devType": 3, "devName": "Laptop",   "brand": null, "address": null },
+    { "room": 1, "devType": 2, "devName": "Local PC", "brand": null, "address": null },
+    { "room": 2, "devType": 1, "devName": "Document camera", "brand": "Lumens", "address": null },
+    { "room": 2, "devType": 2, "devName": "Local PC", "brand": null, "address": null },
+    { "room": 2, "devType": 3, "devName": "Laptop",   "brand": null, "address": null }
+  ],
+  "vidOutputs": [
+    { "room": 1, "devType": 6, "devName": "Audio",     "brand":null,     "address": null },
+    { "room": 2, "devType": 6, "devName": "Audio",     "brand":null,     "address": null },
+    { "room": 1, "devType": 1, "devName": "Projector", "brand":"Panasonic", "address": "10.4.136.36" },
+    { "room": 2, "devType": 1, "devName": "IWB",       "brand": "Epson",    "address": null },
+    { "room": 2, "devType": 1, "devName": "Projector", "brand":"Panasonic", "address": "10.4.136.40" },
+    null,
+    { "room": 1, "devType": 4, "devName": "Record 1",  "brand":"Echo",      "address": "10.4.136.37" },
+    { "room": 1, "devType": 5, "devName": "Record 2",  "brand":"Echo",      "address": null }
+  ]
+}

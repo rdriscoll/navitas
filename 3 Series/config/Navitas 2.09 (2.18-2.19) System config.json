@@ -1,0 +1,220 @@
+{
+  "locations": [
+    {
+      "Id": 1,
+      "Name": "2.18",
+      "Owner": 1,
+      "Owned": [
+        1
+      ],
+      "Volume": 79,
+      "LightArea": 38,
+      "mute": false,
+      "WpAudioType": null,
+      "CurrentVidSourceName": null,
+      "CurrentAudSourceName": null,
+      "Power": 0
+    },
+    {
+      "Id": 2,
+      "Name": "2.19",
+      "Owner": 2,
+      "Owned": [
+        2
+      ],
+      "Volume": 100,
+      "LightArea": 39,
+      "mute": false,
+      "WpAudioType": null,
+      "CurrentVidSourceName": null,
+      "CurrentAudSourceName": null,
+      "Power": 0
+    }
+  ],
+  "project": "Navitas",
+  "type": "Dev",
+  "name": "Navitas 2.18",
+  "controller": "CP3",
+  "version": "0.2",
+  "IPID": 0,
+  "vidSwitcherIpAddress": null,
+  "mics": [
+    {
+      "name": "Lectern",
+      "level": 98,
+      "mute": false,
+      "room": 1
+    },
+    {
+      "name": "Lapel",
+      "level": 100,
+      "mute": false,
+      "room": 1
+    },
+    {
+      "name": "Handheld",
+      "level": 97,
+      "mute": false,
+      "room": 1
+    }
+  ],
+  "lights": {
+    "address": "10.4.136.201",
+    "presets": [
+      "Full",
+      null,
+      "Present",
+      "Off",
+      ""
+    ]
+  },
+  "vidInputs": [
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 1,
+      "devName": "Document camera",
+      "brand": "Lumens",
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 4,
+      "devName": "Camera",
+      "brand": null,
+      "address": "10.4.137.35"
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Laptop",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 2,
+      "devName": "Local PC",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 1,
+      "devName": "Document camera",
+      "brand": "Lumens",
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 2,
+      "devName": "Local PC",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 3,
+      "devName": "Laptop",
+      "brand": null,
+      "address": null
+    }
+  ],
+  "vidOutputs": [
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 6,
+      "devName": "Audio",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 6,
+      "devName": "Audio",
+      "brand": null,
+      "address": null
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 1,
+      "devName": "Projector",
+      "brand": "Panasonic",
+      "address": "10.4.137.36"
+    },
+    {
+      "room": 2,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 1,
+      "devName": "Projector",
+      "brand": "Panasonic",
+      "address": "10.4.137.40"
+    },
+    null,
+    null,
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 0,
+      "currentSourceAud": 0,
+      "devType": 4,
+      "devName": "Record 1",
+      "brand": "Echo",
+      "address": "10.4.137.37"
+    },
+    {
+      "room": 1,
+      "selectedForSwitching": false,
+      "currentSourceVid": 2,
+      "currentSourceAud": 0,
+      "devType": 5,
+      "devName": "Record 2",
+      "brand": "Echo",
+      "address": null
+    }
+  ],
+  "audioDsp": {
+    "address": "10.4.137.34",
+    "deviceID": 218,
+    "gainBlockID": 301,
+    "matrixBlockID": 302,
+    "port": 1023
+  },
+  "showRecordInMenu": false,
+  "loginRequired": false,
+  "numMics": 0,
+  "passwordUser": "1234",
+  "passwordAdmin": "1988",
+  "remoteRoomIp": "10.4.137.46"
+}

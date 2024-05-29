@@ -1,0 +1,28 @@
+[Crestron_Toolbox_Address_Book]
+
+[Entries]
+This .xadr file was created using Toolbox v2.41 or later.=:slot 01
+It is not compatible with this version of Toolbox.=:slot 02
+Please open a .adr Address Book to continue.=:slot 03
+
+[AddressBookInfo]
+Schema=2.0
+Version=1.0
+DefaultEntry=
+
+[ComSpecs]
+usb=usb
+Dev TSW-750=ssh 192.168.1.61
+Dev DMPS3-300-C c2=auto 192.168.1.60;console secondary
+Dev DMPS3-300-C=auto 192.168.1.60
+avplus din-ap3=auto 192.168.1.101
+New Entry 1=auto AVPLUS-DIN-AP3
+
+[Notes]
+usb=
+Dev TSW-750=
+Dev DMPS3-300-C c2=
+Dev DMPS3-300-C=
+avplus din-ap3=
+New Entry 1=
+

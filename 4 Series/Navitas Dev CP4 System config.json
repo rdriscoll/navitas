@@ -1,0 +1,48 @@
+{
+  "Project": "Navitas",
+  "vidSwitcherIpAddress":"",
+  "Type": "Dev",
+  "Name": "Navitas Dev system",
+  "Controller": "CP4",
+  "Version": "0.1",
+  "IPID": 0,
+  "ShowRecordInMenu": false,
+  "LoginREquired": false,
+  "PasswordUser": "1234",
+  "PasswordAdmin": "1988",
+  "locations": [
+    {
+      "Id": 1,
+      "Name": "Dev Room",
+      "Owner": 1,
+      "Owned": [],
+      "Volume": 0,
+      "mute": false,
+      "CurrentVidSourceName": "",
+      "CurrentAudSourceName": "",
+      "Power": 0
+    }
+  ],
+  "audioDsp": {},
+  "lights":
+  {
+    "address":"192.168.104.160",
+    "presets": [  "Full", "", "Present", "Off", ""]
+  },
+  "Mics": [
+    { "room": 1, "level": 0, "mute": false, "name": "Handheld" },
+    { "room": 1, "level": 0, "mute": false, "name": "Lapel" },
+  ],
+  "VidInputs": [
+    { "room": 1, "devType": 1, "devName": "Document camera", "brand":"Lumens", "address": "" },
+    { "room": 1, "devType": 2, "devName": "Local PC", "brand":"", "address": "" },
+    { "room": 1, "devType": 3, "devName": "Laptop",   "brand":"", "address": "" },
+    { "room": 1, "devType": 4, "devName": "Camera",   "brand":"", "address": "" }
+],
+  "VidOutputs": [
+    { "room": 1, "devType": 1, "devName": "Projector 1", "brand":"Panasonic", "address": "192.168.0.110" },
+    { "room": 1, "devType": 2, "devName": "Projector 2", "brand":"Epson",     "address": "" },
+    { "room": 1, "devType": 4, "devName": "Record 1",    "brand":"Echo",      "address": "192.168.0.111" },
+    { "room": 1, "devType": 5, "devName": "Record 2",    "brand":"Echo",      "address": "" }
+]
+}
